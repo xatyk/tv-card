@@ -302,7 +302,7 @@ class TVCardServices extends LitElement {
             return html ``;
         }
 
-        const row_names = ["power_row", "channel_row", "apps_row", "source_row", "volume_row", "media_control_row", "navigation_row"];
+        const row_names = ["power_row", "channel_row", "apps_row", "source_row", "volume_row", "media_control_row", "navigation_row", "num1_row", "num2_row", "num3_row", "num4_row"];
 
         var content = [];
         Object.keys(this._config).forEach((row_name) => {
